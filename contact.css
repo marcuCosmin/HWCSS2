@@ -1,0 +1,189 @@
+@media screen and (min-device-width: 400px) and (max-device-width: 799px) {
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .firstContainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        font-size: 25px;
+        background-color: rgb(231, 230, 230);
+        height: 60px;
+        padding-top: 30px;
+    }
+
+    #firstSpan {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 4px;
+        color: gray;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        font-size: 10px;
+        margin: 3px;
+    }
+
+    input {
+        font-size: 10px;
+        width: 150px;
+        margin: 3px 3px;
+    }
+
+    .messageDiv {
+        margin-left: 15px;
+    }
+
+    .secondContainer {
+        margin: 0 auto;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(231, 230, 230);
+        padding: 5px 5px;
+        width: 360px;
+    }
+    
+    button {
+        border: none;
+        color: white;
+        background-color: rgb(85, 137, 209);
+        padding: 5px 7px;
+        font-size: 10px;
+        margin-left: 275px;
+        margin-top: 5px;
+        border-radius: 9%;
+    }
+
+    .lastContainer {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .lastContainer p {
+        font-size: 13px;
+        border-bottom: 1px solid rgb(231, 230, 230);
+        padding: 0px 30px;
+    }
+
+    .lastContainer div {
+        flex-basis: 100%;
+        text-align: center;
+        font-size: 10px;
+        color: rgb(85, 137, 209);
+    }
+
+    a {
+        margin-right: 45px;
+    }
+
+    #specialAnchor {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (min-device-width: 800px) {
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .firstContainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        font-size: 25px;
+        background-color: rgb(231, 230, 230);
+        height: 60px;
+        padding-top: 30px;
+    }
+
+    #firstSpan {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 4px;
+        color: gray;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        font-size: 14px;
+        margin: 3px;
+    }
+
+    input {
+        font-size: 15px;
+        width: 150px;
+        margin: 3px 3px;
+    }
+
+    .messageDiv {
+        margin-left: 15px;
+    }
+
+    .secondContainer {
+        margin: 0 auto;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(231, 230, 230);
+        padding: 5px 5px;
+        width: 500px;
+    }
+    
+    button {
+        border: none;
+        color: white;
+        background-color: rgb(85, 137, 209);
+        padding: 5px 7px;
+        font-size: 13px;
+        margin-left: 393px;
+        margin-top: 5px;
+        border-radius: 9%;
+    }
+
+    .lastContainer {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .lastContainer p {
+        font-size: 13px;
+        border-bottom: 1px solid rgb(231, 230, 230);
+        padding: 0px 30px;
+    }
+
+    .lastContainer div {
+        flex-basis: 100%;
+        text-align: center;
+        font-size: 10px;
+        color: rgb(85, 137, 209);
+    }
+
+    a {
+        margin-right: 45px;
+    }
+
+    #specialAnchor {
+        margin-right: 0px;
+    }
+
+    #inlineLbl {
+        overflow: auto;
+        resize: none;
+    }
+
+    #message {
+        width: 307px;
+        height: 150px;
+        resize: none;
+        overflow: hidden;
+    }
+}
