@@ -1,0 +1,538 @@
+@media screen and (min-device-width: 400px) and (max-device-width: 799px) {
+
+    div {
+        width: fit-content;
+    }
+
+    .mainContainer {
+        margin: auto;
+    }
+
+    .mainContainer button {
+        border: none;
+        color: white;
+        background-color: rgb(26, 82, 155);
+        padding: 7px 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 7px;
+    }
+
+    #heading {
+        display: inline;
+        font-size: 18px;
+        border-right: 1px solid black;
+        padding-right: 3px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    #headingSpan {
+        font-size: 9px;
+    }
+
+    #headingSpan2 {
+        float: right;
+        display: table-row;
+        font-size: 8px;
+        height: 30px;
+        width: 80px;
+    }
+
+    .secondContainer {
+        height: 200px;
+        background-color: lightblue;
+        color: white;
+        padding: 15px;
+        z-index: 0;
+        position: absolute;
+        width: 340px;
+    }
+
+    #scSpan {
+        font-size: 11px;
+        border-bottom: dotted 1px white;
+        padding-bottom: 5px;
+    }
+
+    .scSubContainer {
+        width: 150px;
+        padding: 7px;
+        background-color: rgb(26, 82, 155);
+        z-index: 2;
+        position: absolute;
+
+    }
+
+    .scSubContainer p {
+        font-size: 9px;
+    }
+
+    #scSubContainer2 {
+        background-color: rgb(36, 121, 25);
+        border-radius: 25px;
+        font-size: 90px;
+        padding: 10px 25px;
+        transform: rotate3d(0, 15 ,20, -25deg) scale(.5, 1);
+        position: absolute;
+        z-index: 1;
+        top: 53px;
+        right: -150px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .secondContainer button {
+        position: absolute;
+        top: 200px;
+        margin-left: 30%;
+        font-size: 20px;
+    }
+
+    .secondContainer button::after {
+        content: ' \226B';
+    }
+
+    .thirdContainer {
+        margin-top: 250px;
+        position: absolute;
+        width: 370px;
+        display: flex;
+        border-bottom: dashed 1px black;
+        padding-bottom: 10px;
+    }
+
+    .subContainers span {
+        font-size: 8px;
+        padding: 5px;
+        border-bottom: 1px dotted gray;
+        margin-left: 8px;
+    }
+
+    .subContainers {
+        width: 117px;
+        background-color: rgb(216, 216, 216);
+        z-index: 0;
+        height: 190px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .subContainers div {
+        background-color: rgb(77, 75, 75);
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: white groove 3px;
+        color: white;
+        padding: 10px 22px;
+    }
+
+    .subContainers p {
+        font-size: 9px;
+        padding: 0px 8px;
+    }
+
+    #scBtn {
+        background-color: rgb(216, 216, 216);
+        padding: 0;
+        padding-right: 5px;
+        color: rgb(26, 82, 155);
+        font-size: 10px;
+        float: right;
+
+    }
+
+    #scBtn::after {
+        content: ' \226B';
+    }
+
+    .thirdSub {
+        margin-right: 0px;
+    }
+
+    .anotherContainer {
+        margin-top: 460px;
+        display: flex;
+        border-bottom: 1px dashed black;
+        padding-bottom: 7px;
+    }
+
+    #templateBox2 {
+        background-color: rgb(77, 75, 75);
+        font-size: 10px;
+        color: white;
+        border: white groove 3px;
+        padding: 25px 15px;
+    }
+
+    .containedByaC {
+        margin-left: 5px;
+        width: 170px;
+    }
+
+    .containedByaC p {
+        font-size: 8px;
+        margin: 0;
+        margin-top: 2px;
+    }
+
+    .containedByaC span {
+        font-size: 8px;
+        border-bottom: 1px dotted black;
+        padding-bottom: 2px;
+    }
+
+    .containedByaC button {
+        float: right;
+        background-color: white;
+        color: rgb(26, 82, 155);
+        font-size: 10px;
+        padding: 0px;
+        margin-top: 5px;
+    }
+
+    .containedByaC button::after {
+        content: ' \226B';  
+    }
+
+    .randomContainer {
+        margin-top: 460px;
+        font-size: 7px;
+        margin-left: 5px;
+        background-color: rgb(238, 235, 235);
+        width: 105px;
+    }
+
+    .randomContainer span {
+        border-bottom: dashed 1px black;
+        font-size: 11px;
+        margin-left: 5px;
+        color: gray;
+        margin-bottom: 6px;
+        padding-right: 47px;
+    }
+
+    .randomContainer button {
+        border-bottom: solid 1px gray;
+        background-color: rgb(238, 235, 235);
+        padding: 0;
+        color: rgb(26, 82, 155);
+        margin-top: 3px;
+        padding-right: 30px;
+        margin-left: 3px;
+
+    }
+    .randomContainer button::before {
+        content: ' \226B';
+    }
+
+    #specialBtn {
+        margin-top: 9px;
+    }
+
+    .boxesContainer {
+        display: flex;
+        font-size: 8px;
+        margin-top: 15px;
+    }
+
+    .boxesContainer div {
+        margin-left: 10px;
+        background-color: rgb(77, 75, 75);
+        border: white groove 3px;
+        padding: 15px 10px;
+        color: white;
+
+    }
+
+    #specialBox {
+        margin-left: 0;
+    }
+
+    .lastDiv {
+        background-color: rgb(26, 82, 155);
+        color: white;
+        font-size: 6px;
+        padding: 5px 5px;
+        width: 360px;
+        margin-top: 5px;
+    }
+
+    .lastDiv span {
+        float: right;
+    }
+
+}
+
+@media screen and (min-device-width: 800px) {
+
+    div {
+        width: fit-content;
+    }
+
+    .mainContainer {
+        margin: auto;
+    }
+
+    .mainContainer button {
+        border: none;
+        color: white;
+        background-color: rgb(26, 82, 155);
+        padding: 13px 40px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 10px;
+    }
+
+    #heading {
+        display: inline;
+        font-size: 24px;
+        border-right: 1px solid black;
+        padding-right: 6px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    #headingSpan {
+        font-size: 12px;
+    }
+
+    #headingSpan2 {
+        float: right;
+        display: table-row;
+        font-size: 10px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .secondContainer {
+        height: 240px;
+        background-color: lightblue;
+        color: white;
+        padding: 15px;
+        z-index: 0;
+        position: absolute;
+        width: 607px;
+    }
+
+    #scSpan {
+        font-size: 13px;
+        border-bottom: dotted 1px white;
+        padding-bottom: 5px;
+    }
+
+    .scSubContainer {
+        width: 170.8px;
+        padding: 7px;
+        background-color: rgb(26, 82, 155);
+        z-index: 2;
+        position: absolute;
+
+    }
+
+    .scSubContainer p {
+        font-size: 11px;
+    }
+
+    #scSubContainer2 {
+        background-color: rgb(36, 121, 25);
+        border-radius: 25px;
+        font-size: 150px;
+        padding: 10px 25px;
+        transform: rotate3d(250, 200 ,150, -25deg) scale(.5, 1);
+        position: absolute;
+        z-index: 1;
+        top: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        right: -240px;
+    }
+
+    .secondContainer button {
+        position: absolute;
+        top: 225px;
+        margin-left: 30%;
+        font-size: 40px;
+        right: 20px;
+        z-index: 3;
+    }
+
+    .secondContainer button::after {
+        content: ' \226B';
+    }
+
+    .thirdContainer {
+        margin-top: 320px;
+        position: absolute;
+        width: 636px;
+        display: flex;
+        border-bottom: dashed 1px black;
+        padding-bottom: 10px;
+    }
+
+    .subContainers span {
+        font-size: 13px;
+        padding: 5px;
+        border-bottom: 1px dotted gray;
+        margin-left: 20px;
+    }
+
+    .subContainers {
+        width: 240px;
+        background-color: rgb(216, 216, 216);
+        z-index: 0;
+        height: 225px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .subContainers div {
+        background-color: rgb(77, 75, 75);
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 22px;
+        border: white groove 3px;
+        color: white;
+        padding: 15px 30px;
+    }
+
+    .subContainers p {
+        font-size: 11px;
+        padding: 0px 18px;
+        padding-left: 23px;
+    }
+
+    #scBtn {
+        background-color: rgb(216, 216, 216);
+        padding: 0;
+        padding-right: 5px;
+        color: rgb(26, 82, 155);
+        font-size: 10px;
+        float: right;
+
+    }
+
+    #scBtn::after {
+        content: ' \226B';
+    }
+
+    .thirdSub {
+        margin-right: 0px;
+    }
+
+    .anotherContainer {
+        margin-top: 460px;
+        display: flex;
+        border-bottom: 1px dashed black;
+        padding-bottom: 7px;
+    }
+
+    #templateBox2 {
+        background-color: rgb(77, 75, 75);
+        font-size: 18px;
+        color: white;
+        border: white groove 3px;
+        padding: 35px 15px;
+    }
+
+    .containedByaC {
+        margin-left: 5px;
+        width: 300px;
+    }
+
+    .containedByaC p {
+        font-size: 11px;
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .containedByaC span {
+        font-size: 13px;
+        border-bottom: 1px dotted black;
+        padding-bottom: 3px;
+    }
+
+    .containedByaC button {
+        float: right;
+        background-color: white;
+        color: rgb(26, 82, 155);
+        font-size: 10px;
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .containedByaC button::after {
+        content: ' \226B';  
+    }
+
+    .randomContainer {
+        margin-top: 460px;
+        font-size: 7px;
+        margin-left: 15px;
+        background-color: rgb(238, 235, 235);
+        width: 190px;
+    }
+
+    .randomContainer span {
+        border-bottom: dashed 1px black;
+        font-size: 15px;
+        margin-left: 5px;
+        color: gray;
+        margin-bottom: 6px;
+        padding-right: 110px;
+    }
+
+    .randomContainer button {
+        border-bottom: solid 1px gray;
+        background-color: rgb(238, 235, 235);
+        font-size: 11px;
+        padding: 0;
+        color: rgb(26, 82, 155);
+        margin-top: 3px;
+        padding-right: 70px;
+        margin-left: 3px;
+        margin-top: 5px;
+
+    }
+    .randomContainer button::before {
+        content: ' \226B';
+    }
+
+    #specialBtn {
+        margin-top: 9px;
+    }
+
+    .boxesContainer {
+        display: flex;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .boxesContainer div {
+        margin-left: 10px;
+        background-color: rgb(77, 75, 75);
+        border: white groove 3px;
+        padding: 23px 26.6px;
+        color: white;
+
+    }
+
+    #specialBox {
+        margin-left: 0;
+    }
+
+    .lastDiv {
+        background-color: rgb(26, 82, 155);
+        color: white;
+        font-size: 8px;
+        padding: 9px 6px;
+        width: 626px;
+        margin-top: 5px;
+    }
+
+    .lastDiv span {
+        float: right;
+    }
+
+    .divBigSizes {
+        margin-top: 110px;
+    }
+
+}
