@@ -17,6 +17,10 @@
         font-size: 7px;
     }
 
+    .the-container {
+        margin-bottom: 10px;
+    }
+
     #heading {
         display: inline;
         font-size: 18px;
@@ -46,6 +50,7 @@
         z-index: 0;
         position: absolute;
         width: 340px;
+        margin-top: 10px;
     }
 
     #scSpan {
@@ -92,7 +97,7 @@
     }
 
     .thirdContainer {
-        margin-top: 250px;
+        margin-top: 260px;
         position: absolute;
         width: 370px;
         display: flex;
@@ -269,6 +274,10 @@
         width: fit-content;
     }
 
+    .the-container {
+        margin-bottom: 15px;
+    }
+
     .mainContainer {
         margin: auto;
     }
@@ -311,6 +320,7 @@
         z-index: 0;
         position: absolute;
         width: 607px;
+        margin-top: 15px;
     }
 
     #scSpan {
@@ -359,7 +369,7 @@
     }
 
     .thirdContainer {
-        margin-top: 320px;
+        margin-top: 330px;
         position: absolute;
         width: 636px;
         display: flex;
