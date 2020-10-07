@@ -1,0 +1,281 @@
+.main-container {
+    width: fit-content;
+    margin: auto;
+}
+
+.btn-container {
+    margin-bottom: 15px;
+}
+
+.main-container input[type='button'] {
+    border: none;
+    color: white;
+    background-color: rgb(72, 103, 144);
+    padding: 13px 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+h1 {
+    display: inline;
+    font-size: 24px;
+    border-right: 1px solid black;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#heading-span-1 {
+    font-size: 12px;
+}
+
+#heading-span-2 {
+    float: right;
+    display: table-row;
+    font-size: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+.technology-container {
+    height: 240px;
+    background-color: lightblue;
+    color: white;
+    padding: 15px;
+    z-index: 0;
+    position: absolute;
+    width: 607px;
+    margin-top: 15px;
+}
+
+#technology-sub-container-span {
+    font-size: 13px;
+    border-bottom: dotted 1px white;
+    padding-bottom: 5px;
+}
+
+.technology-sub-container {
+    font-size: 11px;
+    width: 170.8px;
+    padding: 7px;
+    background-color: rgb(72, 103, 144);
+    z-index: 2;
+    position: absolute;
+}
+
+#transformed-container {
+    background-color: rgb(85, 115, 81);
+    border-radius: 25px;
+    font-size: 150px;
+    padding: 10px 25px;
+    transform: rotate3d(250, 200 ,150, -15deg) scale(.5, 1);
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    right: -240px;
+}
+
+.technology-container button {
+    position: absolute;
+    top: 225px;
+    margin-left: 30%;
+    font-size: 40px;
+    right: 20px;
+    z-index: 3;
+    border: none;
+    color: white;
+    background-color: rgb(72, 103, 144);
+    padding: 13px 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.technology-container button::after {
+    content: ' \226B';
+}
+
+.gray-containers {
+    margin-top: 330px;
+    position: absolute;
+    width: 636px;
+    display: flex;
+    border-bottom: dashed 1px black;
+    padding-bottom: 10px;
+}
+
+.gray-sub-containers span {
+    font-size: 12px;
+    padding: 5px;
+    border-bottom: 1px dotted gray;
+    margin-left: 20px;
+}
+
+.gray-sub-containers {
+    width: 240px;
+    background-color: rgb(216, 216, 216);
+    z-index: 0;
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.gray-sub-containers div {
+    width: 90px;
+    background-color: rgb(77, 75, 75);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 12px;
+    border: white groove 3px;
+    color: white;
+    padding: 15px 30px;
+}
+
+.gray-sub-containers p {
+    font-size: 11px;
+    padding-left: 15px;
+}
+
+#gray-sub-containers-btn {
+    background-color: rgb(216, 216, 216);
+    padding: 0;
+    padding-right: 5px;
+    color: rgb(26, 82, 155);
+    font-size: 11px;
+    float: right;
+    border: none;
+
+}
+
+#gray-sub-containers-btn::after {
+    content: ' \226B';
+}
+
+.gray-sub-containers-third {
+    margin-right: 0px;
+}
+
+.big-parent-sub-1 {
+    margin-top: 460px;
+    display: flex;
+    border-bottom: 1px dashed black;
+    padding-bottom: 7px;
+}
+
+#black-div {
+    background-color: rgb(77, 75, 75);
+    font-size: 18px;
+    color: white;
+    border: white groove 3px;
+    padding: 40px 15px;
+}
+
+.big-parent-sub-1-text {
+    margin-left: 5px;
+    width: 280px;
+}
+
+.big-parent-sub-1-text p {
+    font-size: 11px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.big-parent-sub-1-text span {
+    font-size: 13px;
+    border-bottom: 1px dotted black;
+    padding-bottom: 3px;
+}
+
+.big-parent-sub-1-text button {
+    float: right;
+    background-color: white;
+    color: rgb(26, 82, 155);
+    font-size: 11px;
+    padding: 0px;
+    margin-top: 20px;
+    border: none;
+}
+
+.big-parent-sub-1-text button::after {
+    content: ' \226B';  
+}
+
+.link-container-parent {
+    margin-top: 460px;
+    font-size: 7px;
+    margin-left: 15px;
+    background-color: rgb(238, 235, 235);
+    width: 190px;
+    padding: 10px;
+}
+
+.link-container {
+    line-height: 1.7;
+    margin-top: 5px;
+}
+
+.link-container-parent span {
+    border-bottom: dashed 1px black;
+    font-size: 15px;
+    margin-left: 5px;
+    color: gray;
+    margin-bottom: 6px;
+    padding-right: 110px;
+    padding-bottom: 2px;
+}
+
+.link-container-parent a {
+    border-bottom: solid 1px gray;
+    background-color: rgb(238, 235, 235);
+    font-size: 11px;
+    padding: 0;
+    color: rgb(26, 82, 155);
+    margin-top: 3px;
+    padding-right: 70px;
+    margin-left: 3px;
+}
+.link-container-parent a::before {
+    content: ' \226B';
+}
+
+#specialBtn {
+    margin-top: 9px;
+}
+
+.black-divs-container {
+    display: flex;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.black-divs-container div {
+    margin-left: 10px;
+    background-color: rgb(77, 75, 75);
+    border: white groove 3px;
+    padding: 23px 26.6px;
+    color: white;
+
+}
+
+#special-black-div {
+    margin-left: 0;
+}
+
+.bottom-div {
+    background-color: rgb(72, 103, 144);
+    color: white;
+    font-size: 8px;
+    padding: 9px 6px;
+    width: 626px;
+    margin-top: 10px;
+}
+
+.bottom-div span {
+    float: right;
+}
+
+.links-big-parent {
+    margin-top: 130px;
+    display: flex;
+}
